@@ -1,6 +1,6 @@
 package szokitalalo;
 public class SzoKitalalo {
-
+    public static char megoldas[] = new char[]{'_', '_'};
     public static void main(String[] args) {
         matepro();
     }
@@ -14,12 +14,12 @@ public class SzoKitalalo {
     
     }
     public static String[] zalanpro(){
-        String valasz[] = new String[]{"asd1", "asd2", "\u001B[41m"};
+        String valasz[] = new String[2];
+        
         return valasz;
     }
     public static void matepro(){
-        String ansi_red = zalanpro()[2];
-        System.out.println(ansi_red + "szia");
+        
     }
     public static void eredmeny(){
     
