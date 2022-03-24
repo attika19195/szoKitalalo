@@ -21,13 +21,15 @@ public class SzoKitalalo {
         
         return valasz;
     }
-    public static void matepro(){
+    public static char[] matepro(){
         Scanner scn = new Scanner(System.in);
         System.out.print("_ _\nSzerinted mi lehet a szó?\n");
-        String tipp = scn.nextLine();
-        
+        String szo = scn.nextLine();
+        char[] tipp =  new char[]{szo.charAt(0),szo.charAt(1)};
+        return tipp;
     }
     public static void eredmeny(){
     
     }
+    
 }
