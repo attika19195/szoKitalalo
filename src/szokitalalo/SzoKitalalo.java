@@ -3,33 +3,50 @@ package szokitalalo;
 import java.util.Scanner;
 
 public class SzoKitalalo {
+
     public static char megoldas[] = new char[]{'_', '_'};
+    static char[] tipp;
+
     public static void main(String[] args) {
-        matepro();
+        //matepro();
+        //System.out.printf("%s %c %s %c","\u001B[41m", 's',"\u001B[42m",'c');
     }
-    public static void szokitalal(){
-    
+
+    public static void szokitalal() {
+
     }
-    public static void tajekoztatas(){
-    
+
+    public static void tajekoztatas() {
+
     }
-    public static void szovalaszto(){
-    
+
+    public static void szovalaszto() {
+
     }
-    public static String[] zalanpro(){
+
+    public static String[] zalanpro() {
         String valasz[] = new String[2];
-        
+
         return valasz;
     }
-    public static char[] matepro(){
+
+    public static void matepro() {
         Scanner scn = new Scanner(System.in);
         System.out.print("_ _\nSzerinted mi lehet a szó?\n");
         String szo = scn.nextLine();
-        char[] tipp =  new char[]{szo.charAt(0),szo.charAt(1)};
-        return tipp;
+        tipp = new char[]{szo.charAt(0), szo.charAt(1)};
     }
-    public static void eredmeny(){
-    
+
+    public static void eredmeny() {
+
     }
-    
+
+    public static void szin() {
+        String szin1= "";
+        String szin2 ="";
+        System.out.printf("%c %s ",tipp[0],szin1, tipp[1],szin2);
+    }
+    public static void tombelem_csere(){
+        
+    }
 }
