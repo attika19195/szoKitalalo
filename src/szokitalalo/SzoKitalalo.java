@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package szokitalalo;
-
-/**
- *
- * @author attik
- */
 public class SzoKitalalo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+    }
+    public static void szokitalal(){
+    
+    }
+    public static void tajekoztatas(){
+    
+    }
+    public static void szovalaszto(){
+    
+    }
+    public static String[] zalanpro(){
+        String valasz[] = new String[3];
+        return valasz;
+    }
+    public static void matepro(){
+    
+    }
+    public static void eredmeny(){
+    
     }
     
 }
