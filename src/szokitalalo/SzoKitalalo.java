@@ -13,9 +13,15 @@ public class SzoKitalalo {
     public static void szovalaszto(){
     
     }
-    public static String[] zalanpro(){
+    public static String[] szoeldonto(){
         String valasz[] = new String[2];
-        
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {   
+                if (szovalaszto()[i] == matepro()[j]) {
+                    
+                }
+            }
+        }
         return valasz;
     }
     public static void matepro(){
