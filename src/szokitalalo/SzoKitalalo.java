@@ -1,8 +1,11 @@
 package szokitalalo;
+
+import java.util.Scanner;
+
 public class SzoKitalalo {
 
     public static void main(String[] args) {
-        
+        matepro();
     }
     public static void szokitalal(){
     
@@ -18,7 +21,10 @@ public class SzoKitalalo {
         return valasz;
     }
     public static void matepro(){
-    
+        Scanner scn = new Scanner(System.in);
+        System.out.print("_ _\nSzerinted mi lehet a szó?\n");
+        String tipp = scn.nextLine();
+        
     }
     public static void eredmeny(){
     
