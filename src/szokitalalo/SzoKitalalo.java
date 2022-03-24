@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class SzoKitalalo {
 
     public static char megoldas[] = new char[]{'_', '_'};
-    static char[] tipp;
+    static char[] tipp= new char[2];
 
     public static void main(String[] args) {
-        //matepro();
-        //System.out.printf("%s %c %s %c","\u001B[41m", 's',"\u001B[42m",'c');
+        tipp[0] ='s';
+        tipp[1] ='c';
+        tombelem_csere();
+        System.out.printf("%c %c",megoldas[0],megoldas[1]);
     }
 
     public static void szokitalal() {
@@ -49,11 +51,16 @@ public class SzoKitalalo {
     }
 
     public static void szin() {
-        String szin1= "";
-        String szin2 ="";
+        String szin1 = "";
+        String szin2 = "";
         System.out.printf("%c %s ",tipp[0],szin1, tipp[1],szin2);
     }
     public static void tombelem_csere(){
-        
+        String[] szin= new String[]{"\u001B[42m","\u001B[41m"};
+        for (int i = 0; i < 2; i++) {
+            if(szin[i].equals("\u001B[42m")){
+                megoldas[i]=tipp[i];
+            }
+        }
     }
 }
