@@ -26,7 +26,14 @@ public class SzoKitalalo {
 
     public static String[] zalanpro() {
         String valasz[] = new String[2];
-
+        return valasz;
+    }
+    public static String[] szoeldonto(){
+        String valasz[] = new String[2];
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {   
+            }
+        }
         return valasz;
     }
 
